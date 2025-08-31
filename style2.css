@@ -1,0 +1,128 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+     display: flex;
+     
+    }
+
+    .left
+    {
+        background: url(background.png);
+       flex: 0.70   ;
+      display: flex;
+       flex-direction: column;      /* stack items vertically */
+      justify-content: center;     /* center vertically */
+      align-items: center;  
+}
+    #Signintab
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(255, 255, 255, 0.682);
+    position: relative;
+    left: 130px;
+    top:90px;
+    padding: 12px 14px;
+    border: none;
+    color: black;
+    font-size: 23px;
+    border-radius: 8px;
+    
+    cursor: pointer;
+}
+
+.right
+ {
+  background-color: rgb(255, 255, 255);
+  flex: 0.7;
+  
+  display: flex;
+  color: #4CAF50;
+  
+  flex-direction: column;      /* stack items vertically */
+  justify-content: center;     /* center vertically */
+  align-items: center;         /* center horizontally */
+
+}
+
+#Signuptab
+{
+  border: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:#4CAF50;
+        position: relative;
+        left: 35%;
+        padding: 15px 20px;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 20px;
+        border-radius: 8px;
+        cursor: pointer; 
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 250px;
+    padding: 12px 35px; /* space for icon */
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50; /* same green as button */
+    color: white; /* text inside */
+    font-size: 12px;
+    outline: none; /* remove blue outline */
+}
+        
+        
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder
+ {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+input[type="text"] {
+    background-image: url('person.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+input[type="email"] {
+    background-image: url('email.png'); 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+input[type="password"] {
+    background-image: url('password.png'); 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+    #logos
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    right: 15px;
+    gap: 20px;
+    margin-top: 1px;
+}
+
+#logos img
+{
+    width: 35px;
+    height: auto;
+}
+
+
+
+
+    
+
+
